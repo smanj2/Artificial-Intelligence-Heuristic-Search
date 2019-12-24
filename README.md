@@ -8,15 +8,15 @@ Here are three variants of the 15-puzzle that we studied in class:
 from 1 to 15. In each turn, the player can slide a tile into an adjacent empty space. Here are two
 sample moves of this puzzle:
 
-![alt text](https://github.iu.edu/cs-b551-fa2019/vbmaigur-dtalreja-srmanj-a1/blob/master/img/Annotation%202019-10-10%20113528.jpg)
+![alt text](https://github.com/smanj2/Artificial-Intelligence-Heuristic-Search/blob/master/img/Annotation%202019-10-10%20113528.jpg)
 
 2. Circular: In this variant, all of the moves of the original game are allowed but if the empty space is on the edge of the board, the tile on the opposite side of the board can be moved into the empty space (i.e., it slides on the board and "wraps around" to the other side). If an empty space is on a corner, then two possible "circular" moves are possible.
 
-![alt text](https://github.iu.edu/cs-b551-fa2019/vbmaigur-dtalreja-srmanj-a1/blob/master/img/Annotation%202019-10-10%20113546-2.jpg)
+![alt text](https://github.com/smanj2/Artificial-Intelligence-Heuristic-Search/blob/master/img/Annotation%202019-10-10%20113546-2.jpg)
 
 3. Luddy: This variant honors our school's building's namesake because all moves are in the shape of a letter "L". Specifically, the empty square may be labelled with the tile that is two positions to the left or right and one position up or down, or two positions up or down and one position left or right.
 
-![alt text](https://github.iu.edu/cs-b551-fa2019/vbmaigur-dtalreja-srmanj-a1/blob/master/img/Annotation%202019-10-10%20113606-3.jpg)
+![alt text](https://github.com/smanj2/Artificial-Intelligence-Heuristic-Search/blob/master/img/Annotation%202019-10-10%20113606-3.jpg)
 
 The goal of the puzzle is to find the shortest sequence of moves that restores the canonical configuration (on the left above) given an initial board configuration. We've written an initial implementation of a program to solve these puzzles and it in your github repository. You can run the program like this:
 ```
